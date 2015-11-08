@@ -14,6 +14,7 @@
 		568AE61A1BEF0FB400CA293A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568AE6181BEF0FB400CA293A /* LaunchScreen.storyboard */; };
 		568AE6251BEF0FB500CA293A /* Guitar_Skills__UnabridgedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AE6241BEF0FB500CA293A /* Guitar_Skills__UnabridgedTests.swift */; };
 		568AE6301BEF0FB500CA293A /* Guitar_Skills__UnabridgedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AE62F1BEF0FB500CA293A /* Guitar_Skills__UnabridgedUITests.swift */; };
+		568AE63E1BEF17BF00CA293A /* GuitarSkillsBrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AE63D1BEF17BF00CA293A /* GuitarSkillsBrains.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		568AE62B1BEF0FB500CA293A /* Guitar Skills: UnabridgedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitar Skills: UnabridgedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		568AE62F1BEF0FB500CA293A /* Guitar_Skills__UnabridgedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_Skills__UnabridgedUITests.swift; sourceTree = "<group>"; };
 		568AE6311BEF0FB500CA293A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568AE63D1BEF17BF00CA293A /* GuitarSkillsBrains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarSkillsBrains.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				568AE6111BEF0FB400CA293A /* ViewController.swift */,
 				568AE6131BEF0FB400CA293A /* Main.storyboard */,
+				568AE63D1BEF17BF00CA293A /* GuitarSkillsBrains.swift */,
 				568AE60F1BEF0FB400CA293A /* AppDelegate.swift */,
 				568AE6161BEF0FB400CA293A /* Assets.xcassets */,
 				568AE6181BEF0FB400CA293A /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				568AE6121BEF0FB400CA293A /* ViewController.swift in Sources */,
+				568AE63E1BEF17BF00CA293A /* GuitarSkillsBrains.swift in Sources */,
 				568AE6101BEF0FB400CA293A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
