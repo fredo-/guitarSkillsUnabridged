@@ -11,33 +11,35 @@ import Parse
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Do any additional setup after loading the view, typically from a nib.
+//    }
+//    override func didReceiveMemoryWarning() {
+//        super.didReceiveMemoryWarning()
+//        // Dispose of any resources that can be recreated.
+//    }
     
     
     //Properties:
     @IBOutlet weak var userName: UITextField!
     
     @IBOutlet weak var posPs: UITextField!
-    
-   
+    let guitarAppDBid = "KWg6vkp0BCIux6pQpftK9oc1M2q6wltAxT7xdba7"
+    let fredoClientKeyDB = "3UYovk71VCPwYaiVtH4M1TfE97rcPogwA13D9LUn"
     var brains =  GuitarSkillsBrains()
     
+    //Functionality
     //---------------------THIS FUNCTION STARTS THE INITIALIZATION OF THE MODEL------------------------
     @IBAction func makeModel() {
-        Parse.setApplicationId("KWg6vkp0BCIux6pQpftK9oc1M2q6wltAxT7xdba7", clientKey: "3UYovk71VCPwYaiVtH4M1TfE97rcPogwA13D9LUn")
-        
-        //Query database to get the user info
-        let usrlogin = brains.emailToDBID[String(userName.text!)]
+        //Query Parse database to get user info, password and id
+        Parse.setApplicationId(guitarAppDBid, clientKey: fredoClientKeyDB)
+        checkLoginInfo()
+    }
+    
+    func checkLoginInfo(){
+        let usrlogin = brains.emailToDBID[userName.text!]
         let usrInfo = PFQuery(className: "users_table")
-        
-        //Check the password
         usrInfo.getObjectInBackgroundWithId(usrlogin!) {
             (userRow: PFObject?, error: NSError?) -> Void in
             if error == nil && userRow != nil {
@@ -47,17 +49,11 @@ class ViewController: UIViewController {
                 }else{
                     print("Hit the road bum")
                 }
-                
-                //print(actualPsw)
-                //print(self.posPs.text!)
             } else {
                 print(error)
             }
+            
         }
-
-    
     }
-    
-    
 }
 
