@@ -6,9 +6,28 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="0ka-2J-6gE">
+            <objects>
+                <viewController id="cod-RP-P1n" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jvu-lL-CeD"/>
+                        <viewControllerLayoutGuide type="bottom" id="Art-Ac-6EI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tXa-zT-XdP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="noW-Qf-nSZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="557" y="370"/>
+        </scene>
+        <!--Home Screen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Guitar_Skills__Unabridged" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Home Screen" customClass="ViewController" customModule="Guitar_Skills__Unabridged" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,13 +35,39 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jZK-pc-JEa">
+                                <rect key="frame" x="258" y="270" width="85" height="60"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mQw-H9-I7I">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4CH-nn-BTE">
+                                        <rect key="frame" x="25" y="30" width="36" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="enter"/>
+                                        <connections>
+                                            <action selector="makeModel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gJM-v0-ScA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jZK-pc-JEa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PMZ-Km-vwQ"/>
+                            <constraint firstItem="jZK-pc-JEa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YF0-Ej-DHC"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="243" y="335"/>
+            <point key="canvasLocation" x="-147" y="396"/>
         </scene>
     </scenes>
 </document>
