@@ -52,7 +52,7 @@ class GuitarSkillsBrains{
     var userInfo = UserInfo()
     var emailToDBID = [String: String]()
     
-    init(userInfo: AnyObject, lessons: AnyObject, objectives: AnyObject) {
+    init() {
         //TODO
         emailToDBID.updateValue("Uyj1gkFx9j", "alb@cf.com")
         emailToDBID.updateValue("PQNanZBTym", "bla@cf.com")
