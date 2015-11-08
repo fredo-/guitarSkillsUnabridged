@@ -50,12 +50,10 @@ class GuitarSkillsBrains{
     var historyList = HistoryList()
     var catalog = Catalog()
     var userInfo = UserInfo()
-    var emailToDBID = [String: String]()
-    
+    var emailToDBID = [String:String]()
     init(userInfo: AnyObject, lessons: AnyObject, objectives: AnyObject) {
         //TODO
-        emailToDBID.updateValue("Uyj1gkFx9j", "alb@cf.com")
-        emailToDBID.updateValue("PQNanZBTym", "bla@cf.com")
+        emailToDBID = ["alb@cf.com":"Uyj1gkFx9j", "bla@cf.com":"PQNanZBTym"]
     }
     
     func getNextLesson()-> String {
