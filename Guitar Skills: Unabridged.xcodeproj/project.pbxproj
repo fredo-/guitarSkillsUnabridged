@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		568AE6101BEF0FB400CA293A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AE60F1BEF0FB400CA293A /* AppDelegate.swift */; };
+		568AE6121BEF0FB400CA293A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AE6111BEF0FB400CA293A /* ViewController.swift */; };
+		568AE6151BEF0FB400CA293A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568AE6131BEF0FB400CA293A /* Main.storyboard */; };
+		568AE6171BEF0FB400CA293A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568AE6161BEF0FB400CA293A /* Assets.xcassets */; };
+		568AE61A1BEF0FB400CA293A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568AE6181BEF0FB400CA293A /* LaunchScreen.storyboard */; };
+		568AE6251BEF0FB500CA293A /* Guitar_Skills__UnabridgedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AE6241BEF0FB500CA293A /* Guitar_Skills__UnabridgedTests.swift */; };
+		568AE6301BEF0FB500CA293A /* Guitar_Skills__UnabridgedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AE62F1BEF0FB500CA293A /* Guitar_Skills__UnabridgedUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		568AE6211BEF0FB400CA293A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 568AE6041BEF0FB400CA293A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568AE60B1BEF0FB400CA293A;
+			remoteInfo = "Guitar Skills: Unabridged";
+		};
+		568AE62C1BEF0FB500CA293A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 568AE6041BEF0FB400CA293A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568AE60B1BEF0FB400CA293A;
+			remoteInfo = "Guitar Skills: Unabridged";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		568AE60C1BEF0FB400CA293A /* Guitar Skills: Unabridged.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guitar Skills: Unabridged.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		568AE60F1BEF0FB400CA293A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		568AE6111BEF0FB400CA293A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		568AE6141BEF0FB400CA293A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		568AE6161BEF0FB400CA293A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		568AE6191BEF0FB400CA293A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		568AE61B1BEF0FB400CA293A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568AE6201BEF0FB400CA293A /* Guitar Skills: UnabridgedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitar Skills: UnabridgedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		568AE6241BEF0FB500CA293A /* Guitar_Skills__UnabridgedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_Skills__UnabridgedTests.swift; sourceTree = "<group>"; };
+		568AE6261BEF0FB500CA293A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568AE62B1BEF0FB500CA293A /* Guitar Skills: UnabridgedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitar Skills: UnabridgedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		568AE62F1BEF0FB500CA293A /* Guitar_Skills__UnabridgedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_Skills__UnabridgedUITests.swift; sourceTree = "<group>"; };
+		568AE6311BEF0FB500CA293A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		568AE6091BEF0FB400CA293A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568AE61D1BEF0FB400CA293A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568AE6281BEF0FB500CA293A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		568AE6031BEF0FB400CA293A = {
+			isa = PBXGroup;
+			children = (
+				568AE60E1BEF0FB400CA293A /* Guitar Skills: Unabridged */,
+				568AE6231BEF0FB400CA293A /* Guitar Skills: UnabridgedTests */,
+				568AE62E1BEF0FB500CA293A /* Guitar Skills: UnabridgedUITests */,
+				568AE60D1BEF0FB400CA293A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		568AE60D1BEF0FB400CA293A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				568AE60C1BEF0FB400CA293A /* Guitar Skills: Unabridged.app */,
+				568AE6201BEF0FB400CA293A /* Guitar Skills: UnabridgedTests.xctest */,
+				568AE62B1BEF0FB500CA293A /* Guitar Skills: UnabridgedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		568AE60E1BEF0FB400CA293A /* Guitar Skills: Unabridged */ = {
+			isa = PBXGroup;
+			children = (
+				568AE6111BEF0FB400CA293A /* ViewController.swift */,
+				568AE6131BEF0FB400CA293A /* Main.storyboard */,
+				568AE60F1BEF0FB400CA293A /* AppDelegate.swift */,
+				568AE6161BEF0FB400CA293A /* Assets.xcassets */,
+				568AE6181BEF0FB400CA293A /* LaunchScreen.storyboard */,
+				568AE61B1BEF0FB400CA293A /* Info.plist */,
+			);
+			path = "Guitar Skills: Unabridged";
+			sourceTree = "<group>";
+		};
+		568AE6231BEF0FB400CA293A /* Guitar Skills: UnabridgedTests */ = {
+			isa = PBXGroup;
+			children = (
+				568AE6241BEF0FB500CA293A /* Guitar_Skills__UnabridgedTests.swift */,
+				568AE6261BEF0FB500CA293A /* Info.plist */,
+			);
+			path = "Guitar Skills: UnabridgedTests";
+			sourceTree = "<group>";
+		};
+		568AE62E1BEF0FB500CA293A /* Guitar Skills: UnabridgedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				568AE62F1BEF0FB500CA293A /* Guitar_Skills__UnabridgedUITests.swift */,
+				568AE6311BEF0FB500CA293A /* Info.plist */,
+			);
+			path = "Guitar Skills: UnabridgedUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		568AE60B1BEF0FB400CA293A /* Guitar Skills: Unabridged */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568AE6341BEF0FB500CA293A /* Build configuration list for PBXNativeTarget "Guitar Skills: Unabridged" */;
+			buildPhases = (
+				568AE6081BEF0FB400CA293A /* Sources */,
+				568AE6091BEF0FB400CA293A /* Frameworks */,
+				568AE60A1BEF0FB400CA293A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guitar Skills: Unabridged";
+			productName = "Guitar Skills: Unabridged";
+			productReference = 568AE60C1BEF0FB400CA293A /* Guitar Skills: Unabridged.app */;
+			productType = "com.apple.product-type.application";
+		};
+		568AE61F1BEF0FB400CA293A /* Guitar Skills: UnabridgedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568AE6371BEF0FB500CA293A /* Build configuration list for PBXNativeTarget "Guitar Skills: UnabridgedTests" */;
+			buildPhases = (
+				568AE61C1BEF0FB400CA293A /* Sources */,
+				568AE61D1BEF0FB400CA293A /* Frameworks */,
+				568AE61E1BEF0FB400CA293A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568AE6221BEF0FB400CA293A /* PBXTargetDependency */,
+			);
+			name = "Guitar Skills: UnabridgedTests";
+			productName = "Guitar Skills: UnabridgedTests";
+			productReference = 568AE6201BEF0FB400CA293A /* Guitar Skills: UnabridgedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		568AE62A1BEF0FB500CA293A /* Guitar Skills: UnabridgedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568AE63A1BEF0FB500CA293A /* Build configuration list for PBXNativeTarget "Guitar Skills: UnabridgedUITests" */;
+			buildPhases = (
+				568AE6271BEF0FB500CA293A /* Sources */,
+				568AE6281BEF0FB500CA293A /* Frameworks */,
+				568AE6291BEF0FB500CA293A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568AE62D1BEF0FB500CA293A /* PBXTargetDependency */,
+			);
+			name = "Guitar Skills: UnabridgedUITests";
+			productName = "Guitar Skills: UnabridgedUITests";
+			productReference = 568AE62B1BEF0FB500CA293A /* Guitar Skills: UnabridgedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		568AE6041BEF0FB400CA293A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Wolf Picks";
+				TargetAttributes = {
+					568AE60B1BEF0FB400CA293A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					568AE61F1BEF0FB400CA293A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 568AE60B1BEF0FB400CA293A;
+					};
+					568AE62A1BEF0FB500CA293A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 568AE60B1BEF0FB400CA293A;
+					};
+				};
+			};
+			buildConfigurationList = 568AE6071BEF0FB400CA293A /* Build configuration list for PBXProject "Guitar Skills: Unabridged" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 568AE6031BEF0FB400CA293A;
+			productRefGroup = 568AE60D1BEF0FB400CA293A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				568AE60B1BEF0FB400CA293A /* Guitar Skills: Unabridged */,
+				568AE61F1BEF0FB400CA293A /* Guitar Skills: UnabridgedTests */,
+				568AE62A1BEF0FB500CA293A /* Guitar Skills: UnabridgedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		568AE60A1BEF0FB400CA293A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568AE61A1BEF0FB400CA293A /* LaunchScreen.storyboard in Resources */,
+				568AE6171BEF0FB400CA293A /* Assets.xcassets in Resources */,
+				568AE6151BEF0FB400CA293A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568AE61E1BEF0FB400CA293A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568AE6291BEF0FB500CA293A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		568AE6081BEF0FB400CA293A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568AE6121BEF0FB400CA293A /* ViewController.swift in Sources */,
+				568AE6101BEF0FB400CA293A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568AE61C1BEF0FB400CA293A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568AE6251BEF0FB500CA293A /* Guitar_Skills__UnabridgedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568AE6271BEF0FB500CA293A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568AE6301BEF0FB500CA293A /* Guitar_Skills__UnabridgedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		568AE6221BEF0FB400CA293A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568AE60B1BEF0FB400CA293A /* Guitar Skills: Unabridged */;
+			targetProxy = 568AE6211BEF0FB400CA293A /* PBXContainerItemProxy */;
+		};
+		568AE62D1BEF0FB500CA293A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568AE60B1BEF0FB400CA293A /* Guitar Skills: Unabridged */;
+			targetProxy = 568AE62C1BEF0FB500CA293A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		568AE6131BEF0FB400CA293A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568AE6141BEF0FB400CA293A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		568AE6181BEF0FB400CA293A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568AE6191BEF0FB400CA293A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		568AE6321BEF0FB500CA293A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		568AE6331BEF0FB500CA293A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		568AE6351BEF0FB500CA293A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Guitar Skills: Unabridged/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.Guitar-Skills--Unabridged";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		568AE6361BEF0FB500CA293A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Guitar Skills: Unabridged/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.Guitar-Skills--Unabridged";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		568AE6381BEF0FB500CA293A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Guitar Skills: UnabridgedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.Guitar-Skills--UnabridgedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guitar Skills: Unabridged.app/Guitar Skills: Unabridged";
+			};
+			name = Debug;
+		};
+		568AE6391BEF0FB500CA293A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Guitar Skills: UnabridgedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.Guitar-Skills--UnabridgedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guitar Skills: Unabridged.app/Guitar Skills: Unabridged";
+			};
+			name = Release;
+		};
+		568AE63B1BEF0FB500CA293A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Guitar Skills: UnabridgedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.Guitar-Skills--UnabridgedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Guitar Skills: Unabridged";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		568AE63C1BEF0FB500CA293A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Guitar Skills: UnabridgedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.Guitar-Skills--UnabridgedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Guitar Skills: Unabridged";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		568AE6071BEF0FB400CA293A /* Build configuration list for PBXProject "Guitar Skills: Unabridged" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568AE6321BEF0FB500CA293A /* Debug */,
+				568AE6331BEF0FB500CA293A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568AE6341BEF0FB500CA293A /* Build configuration list for PBXNativeTarget "Guitar Skills: Unabridged" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568AE6351BEF0FB500CA293A /* Debug */,
+				568AE6361BEF0FB500CA293A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		568AE6371BEF0FB500CA293A /* Build configuration list for PBXNativeTarget "Guitar Skills: UnabridgedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568AE6381BEF0FB500CA293A /* Debug */,
+				568AE6391BEF0FB500CA293A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		568AE63A1BEF0FB500CA293A /* Build configuration list for PBXNativeTarget "Guitar Skills: UnabridgedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568AE63B1BEF0FB500CA293A /* Debug */,
+				568AE63C1BEF0FB500CA293A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 568AE6041BEF0FB400CA293A /* Project object */;
+}

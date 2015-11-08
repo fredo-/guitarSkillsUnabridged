@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Guitar Skills: Unabridged.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>568AE60B1BEF0FB400CA293A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>568AE61F1BEF0FB400CA293A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>568AE62A1BEF0FB500CA293A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
