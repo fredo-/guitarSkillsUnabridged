@@ -61,7 +61,7 @@ class GuitarSkillsBrains{
             return ""
         }
         let randNum = arc4random_uniform(10)
-        var returnLessonID: Int = 0;
+        let returnLessonID: Int = 0;
         var skill = String()
         if (randNum < 7) {
             // get the first priority
