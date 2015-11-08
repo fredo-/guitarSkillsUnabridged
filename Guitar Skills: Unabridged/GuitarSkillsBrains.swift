@@ -50,68 +50,70 @@ class GuitarSkillsBrains{
     var historyList = HistoryList()
     var catalog = Catalog()
     var userInfo = UserInfo()
-    var emailToDBID = [String:String]()
-    init(userInfo: AnyObject, lessons: AnyObject, objectives: AnyObject) {
+    var emailToDBID = [String: String]()
+    
+    init() {
         //TODO
-        emailToDBID = ["alb@cf.com":"Uyj1gkFx9j", "bla@cf.com":"PQNanZBTym"]
+        emailToDBID["alb@cf.com"]="Uyj1gkFx9j"
+        emailToDBID["bla@cf.com"]="PQNanZBTym"
     }
     
-    func getNextLesson()-> String {
-        if (historyList.completedLessonsCount == catalog.lessonCount) {
-            return ""
-        }
-        let randNum = arc4random_uniform(10)
-        let returnLessonID: Int = 0;
-        var skill = String()
-        if (randNum < 7) {
-            // get the first priority
-            skill = Array(arrayLiteral: userInfo.priorities)[0]
-        } else if (randNum < 9) {
-            //get the second priority
-            skill = Array(arrayLiteral: userInfo.priorities)[1]
-        } else if (randNum == 9) {
-            skill = Array(arrayLiteral: userInfo.priorities)[2]
-        } else {
-            skill = Array(arrayLiteral: userInfo.priorities)[3]
-        }
-        //get the max level in that skill
-        let maxLevel = historyList.skillDictionary[skill]
-        var haveNotSelectedALesson: Bool = true
-        for lesson: (Int, Int, Character, String) in catalog.lessonsArray {
-            if (lesson.3 == skill) {
-                //if this lesson has not been completed
-                var notCompleted = true
-                for completedLesson: (Int, Character) in historyList.completedLessonsIDs {
-                    if (completedLesson.0 == lesson.0) {
-                        notCompleted = false
-                        break;
-                    }
-                }
-                if (notCompleted) {
-                    returnLessonID = lesson.0
-                    haveNotSelectedALesson = false;
-                }
-            }
-        }
-        //if no lesson is selected in that skill (because the user has completed all lessons in that skill), a new lesson is selected
-        if (haveNotSelectedALesson) {
-        for lesson: (Int, Int, Character, String) in catalog.lessonsArray {
-                var notCompleted = true
-                for completedLesson: (Int, Character) in historyList.completedLessonsIDs {
-                    if (completedLesson.0 == lesson.0) {
-                        notCompleted = false
-                        break;
-                    }
-                }
-                if (notCompleted) {
-                    returnLessonID = lesson.0
-                    haveNotSelectedALesson = false;
-                }
-        }
-        }
-        // get the url of by lesson id TODO
-        return ""
-    }
+//    func getNextLesson()-> String {
+//        if (historyList.completedLessonsCount == catalog.lessonCount) {
+//            return ""
+//        }
+//        let randNum = arc4random_uniform(10)
+//        //var returnLessonID: Int = 0;
+//        var skill = String()
+//        if (randNum < 7) {
+//            // get the first priority
+//            skill = Array(arrayLiteral: userInfo.priorities)[0]
+//        } else if (randNum < 9) {
+//            //get the second priority
+//            skill = Array(arrayLiteral: userInfo.priorities)[1]
+//        } else if (randNum == 9) {
+//            skill = Array(arrayLiteral: userInfo.priorities)[2]
+//        } else {
+//            skill = Array(arrayLiteral: userInfo.priorities)[3]
+//        }
+//        //get the max level in that skill
+//        _ = historyList.skillDictionary[skill]
+//        var haveNotSelectedALesson: Bool = true
+//        for lesson: (Int, Int, Character, String) in catalog.lessonsArray {
+//            if (lesson.3 == skill) {
+//                //if this lesson has not been completed
+//                var notCompleted = true
+//                for completedLesson: (Int, Character) in historyList.completedLessonsIDs {
+//                    if (completedLesson.0 == lesson.0) {
+//                        notCompleted = false
+//                        break;
+//                    }
+//                }
+//                if (notCompleted) {
+//                    returnLessonID = lesson.0
+//                    haveNotSelectedALesson = false;
+//                }
+//            }
+//        }
+//        //if no lesson is selected in that skill (because the user has completed all lessons in that skill), a new lesson is selected
+//        if (haveNotSelectedALesson) {
+//        for lesson: (Int, Int, Character, String) in catalog.lessonsArray {
+//                var notCompleted = true
+//                for completedLesson: (Int, Character) in historyList.completedLessonsIDs {
+//                    if (completedLesson.0 == lesson.0) {
+//                        notCompleted = false
+//                        break;
+//                    }
+//                }
+//                if (notCompleted) {
+//                    returnLessonID = lesson.0
+//                    haveNotSelectedALesson = false;
+//                }
+//        }
+//        }
+//        // get the url of by lesson id TODO
+//        return ""
+//    }
     
     /**
      * returns stats that will be displayed in pie charts
