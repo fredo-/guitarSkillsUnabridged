@@ -15,6 +15,18 @@
 		568AE6251BEF0FB500CA293A /* Guitar_Skills__UnabridgedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AE6241BEF0FB500CA293A /* Guitar_Skills__UnabridgedTests.swift */; };
 		568AE6301BEF0FB500CA293A /* Guitar_Skills__UnabridgedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AE62F1BEF0FB500CA293A /* Guitar_Skills__UnabridgedUITests.swift */; };
 		568AE63E1BEF17BF00CA293A /* GuitarSkillsBrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568AE63D1BEF17BF00CA293A /* GuitarSkillsBrains.swift */; };
+		568AE6411BEF46FE00CA293A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568AE63F1BEF46FE00CA293A /* Bolts.framework */; };
+		568AE6421BEF46FE00CA293A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568AE6401BEF46FE00CA293A /* Parse.framework */; };
+		56D864621BEF4833003059DD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D864581BEF4833003059DD /* AudioToolbox.framework */; };
+		56D864631BEF4833003059DD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D864591BEF4833003059DD /* CFNetwork.framework */; };
+		56D864641BEF4833003059DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8645A1BEF4833003059DD /* CoreGraphics.framework */; };
+		56D864651BEF4833003059DD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8645B1BEF4833003059DD /* CoreLocation.framework */; };
+		56D864661BEF4833003059DD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8645C1BEF4833003059DD /* libsqlite3.tbd */; };
+		56D864671BEF4833003059DD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8645D1BEF4833003059DD /* libz.tbd */; };
+		56D864681BEF4833003059DD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8645E1BEF4833003059DD /* QuartzCore.framework */; };
+		56D864691BEF4833003059DD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8645F1BEF4833003059DD /* Security.framework */; };
+		56D8646A1BEF4833003059DD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D864601BEF4833003059DD /* StoreKit.framework */; };
+		56D8646B1BEF4833003059DD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D864611BEF4833003059DD /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		568AE62F1BEF0FB500CA293A /* Guitar_Skills__UnabridgedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_Skills__UnabridgedUITests.swift; sourceTree = "<group>"; };
 		568AE6311BEF0FB500CA293A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		568AE63D1BEF17BF00CA293A /* GuitarSkillsBrains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarSkillsBrains.swift; sourceTree = "<group>"; };
+		568AE63F1BEF46FE00CA293A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		568AE6401BEF46FE00CA293A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		56D864581BEF4833003059DD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		56D864591BEF4833003059DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		56D8645A1BEF4833003059DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56D8645B1BEF4833003059DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		56D8645C1BEF4833003059DD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		56D8645D1BEF4833003059DD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		56D8645E1BEF4833003059DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		56D8645F1BEF4833003059DD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		56D864601BEF4833003059DD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		56D864611BEF4833003059DD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D864621BEF4833003059DD /* AudioToolbox.framework in Frameworks */,
+				56D864631BEF4833003059DD /* CFNetwork.framework in Frameworks */,
+				56D864641BEF4833003059DD /* CoreGraphics.framework in Frameworks */,
+				56D864651BEF4833003059DD /* CoreLocation.framework in Frameworks */,
+				56D864661BEF4833003059DD /* libsqlite3.tbd in Frameworks */,
+				56D864671BEF4833003059DD /* libz.tbd in Frameworks */,
+				56D864681BEF4833003059DD /* QuartzCore.framework in Frameworks */,
+				56D864691BEF4833003059DD /* Security.framework in Frameworks */,
+				56D8646A1BEF4833003059DD /* StoreKit.framework in Frameworks */,
+				56D8646B1BEF4833003059DD /* SystemConfiguration.framework in Frameworks */,
+				568AE6421BEF46FE00CA293A /* Parse.framework in Frameworks */,
+				568AE6411BEF46FE00CA293A /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +115,18 @@
 		568AE6031BEF0FB400CA293A = {
 			isa = PBXGroup;
 			children = (
+				56D864581BEF4833003059DD /* AudioToolbox.framework */,
+				56D864591BEF4833003059DD /* CFNetwork.framework */,
+				56D8645A1BEF4833003059DD /* CoreGraphics.framework */,
+				56D8645B1BEF4833003059DD /* CoreLocation.framework */,
+				56D8645C1BEF4833003059DD /* libsqlite3.tbd */,
+				56D8645D1BEF4833003059DD /* libz.tbd */,
+				56D8645E1BEF4833003059DD /* QuartzCore.framework */,
+				56D8645F1BEF4833003059DD /* Security.framework */,
+				56D864601BEF4833003059DD /* StoreKit.framework */,
+				56D864611BEF4833003059DD /* SystemConfiguration.framework */,
+				568AE63F1BEF46FE00CA293A /* Bolts.framework */,
+				568AE6401BEF46FE00CA293A /* Parse.framework */,
 				568AE60E1BEF0FB400CA293A /* Guitar Skills: Unabridged */,
 				568AE6231BEF0FB400CA293A /* Guitar Skills: UnabridgedTests */,
 				568AE62E1BEF0FB500CA293A /* Guitar Skills: UnabridgedUITests */,
@@ -403,6 +451,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Guitar Skills: Unabridged/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.Guitar-Skills--Unabridged";
@@ -414,6 +466,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Guitar Skills: Unabridged/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HackDuke.Guitar-Skills--Unabridged";
@@ -488,6 +544,7 @@
 				568AE6361BEF0FB500CA293A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		568AE6371BEF0FB500CA293A /* Build configuration list for PBXNativeTarget "Guitar Skills: UnabridgedTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +553,7 @@
 				568AE6391BEF0FB500CA293A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		568AE63A1BEF0FB500CA293A /* Build configuration list for PBXNativeTarget "Guitar Skills: UnabridgedUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +562,7 @@
 				568AE63C1BEF0FB500CA293A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
